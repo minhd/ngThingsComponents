@@ -1,0 +1,17 @@
+body {
+    background: #d5d5d5;
+}
+section.daycounter {
+    margin:0 auto;
+    text-align:center;
+}
+section.daycounter .daycounter-container {
+    text-align:center;
+    background: white;
+    padding: 15px;
+    margin-bottom:10px;
+}
+.daycounter-container .daycounter-day {
+    font-size:1.2rem;
+    display:block;
+}

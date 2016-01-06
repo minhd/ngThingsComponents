@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ngThingsComponents</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body ng-app="ngThingsComponents" ng-controller="mainCtrl">
+
+
+<section class="daycounter">
+    <ng-day-counter until="'2016-11-11T00:00:00'"></ng-day-counter>
+    <ng-day-counter since="'2016-01-01T00:00:00'"></ng-day-counter>
+    <ng-day-counter
+            since="'2014-12-25T06:00:00'"
+            context="'Aiden was born'">
+    </ng-day-counter>
+</section>
+
+</body>
+
+<!--Libraries-->
+<script src="../bower_components/angularjs/angular.min.js"></script>
+<script src="../bower_components/moment/moment.js"></script>
+
+<script src="js/app.js"></script>
+<script src="js/directives/ngDayCounter.js"></script>
+
+</html>
